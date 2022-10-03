@@ -22,7 +22,7 @@ function App() {
 				message: 'Sending cart data!'
 			}));
 			
-			const response = await fetch('https://react-http2-66530-default-rtdb.firebaseio.com/cart.json', {
+			const response = await fetch('https://react-http2-1111-default-rtdb.firebaseio.com/cart.json', {
 				method: 'PUT',
 				body: JSON.stringify(cart)
 			});
